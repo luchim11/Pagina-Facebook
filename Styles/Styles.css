@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding:0;
+    background-color: rgb(20, 20, 20);
+}
+
+
+
+.cabecera{
+    background-color: rgb(128, 128, 128); 
+    width: 100%;
+    margin:0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px;
+   /* justify-content: space-between;*/
+}
+#C-left{
+    background-color: rgb(128, 128, 128); 
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    
+    /*
+    display: grid;
+    grid-template-columns: 1fr auto;*/
+}
+#logoF{
+    width: 15%;
+    border-radius: 50%;
+}
+.buscador{
+    width: 100%;
+    height: 75%;
+    border-radius: 25%;
+    
+}
+#C-center{
+    background-color: rgb(128, 128, 128);
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap:5px;    
+    
+}
+.botones-medio{
+    color:rgb(50, 94, 214);  
+    border-radius: 20%;
+ 
+}
+#C-right{
+    background-color: rgb(128, 128, 128);
+    display: flex;
+    flex-direction: row;
+    justify-content: right;   
+    gap:10px;
+    
+}
+.botones-right{
+    color:rgb(50, 94, 214);
+    border-radius: 50%;
+}
+
+
+.contenedor{
+    display:float;
+    margin-left: 10%;
+    margin-right: 10%;
+    justify-content: center;
+    width: 75%;
+}
+
+#portada{
+    width: 100% ;
+    height: 75%;
+    border-radius: 4%;
+}
+.perfil{
+    display:float;
+    float:left;
+
+}
+#F-perfil{
+    width:20%;
+    border-radius: 50%;
+    float:left;
+}
+p{
+    color: white;
+}
+#amigos{
+    color:grey;
+}
+/*div{
+}
